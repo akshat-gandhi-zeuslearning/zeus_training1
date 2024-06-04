@@ -8,7 +8,7 @@ function formSubmit() {
     }*/
     
     if (name.value.length === 0) {
-        alert("Please enter your name.");
+        alert("Please enter your name with middlename");
         document.getElementById("your-name").focus();
     }
     if(comment.value.length ===0)
