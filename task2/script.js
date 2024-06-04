@@ -8,7 +8,7 @@ function formSubmit() {
     }*/
     
     if (name.value.length === 0) {
-        alert("Please enter your name.");
+        alert("Please enter your name and surname.");
         document.getElementById("your-name").focus();
     }
     if(comment.value.length ===0)
@@ -20,5 +20,7 @@ function formSubmit() {
     if(!gender_male.checked && !gender_female.checked )
         {
             alert("Please enter gender")
+
         }   
 }
+
