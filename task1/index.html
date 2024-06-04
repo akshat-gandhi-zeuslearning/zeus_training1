@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello world</h1>
+
+    <ul>
+        <li><p>Prettier - Code Formatter: <br>Prettier is an opinionated code formatter that automatically formats your code to a consistent style. 
+           <br> It's great for maintaining code consistency within a team or simply avoiding manual formatting hassles.</p></li>
+        <li><p>ESLint: <br> ESLint is a configurable linter that helps you find and fix problems in your JavaScript code. <br>It catches issues like unused variables, missing semicolons, and more, making it a valuable tool for both frontend and backend development.</p></li>
+        <li><p>Live Server: <br>
+            Live Server launches a local development server with live reloading. It's perfect for previewing your HTML, CSS, and JavaScript changes in real-time as you work.</p></li>
+    </ul>
+    <h1>These extensions will enhance your productivity and streamline your workflow. </h1>
+    <!-- Dropdown menu for extension selection -->
+    <label for="extensionSelect">Choose your favorite extension:</label>
+    <select id="extensionSelect">
+        <option value="prettier">Prettier</option>
+        <option value="eslint">ESLint</option>
+        <option value="liveServer">Live Server</option>
+    </select>
+
+    <!-- Display user's selection -->
+    <p id="userSelection"></p>
+
+    <script>
+        const extensionSelect = document.getElementById('extensionSelect');
+        const userSelection = document.getElementById('userSelection');
+
+        extensionSelect.addEventListener('change', () => {
+            const selectedExtension = extensionSelect.value;
+            userSelection.textContent = `You selected: ${selectedExtension}`;
+        });
+    </script>
+</body>
+</html>

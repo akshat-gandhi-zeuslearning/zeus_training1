@@ -1,0 +1,25 @@
+.main_container {
+    background-color:#DAED57;
+}
+
+.Header{
+    font-family: 'Roboto', sans-serif;
+    background-color: maroon;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 10px solid red;
+}
+
+h2{
+    background-color: green;
+    color: white;
+}
+ul{
+    color: red;
+}
+
+.table_value {
+    background-color: #CECECE;
+}

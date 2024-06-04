@@ -1,0 +1,22 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+  }
+  
+  p,label {
+    color: black;
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  ul {
+    list-style-type: circle;
+}
+select{
+  color: blue;
+  text-align: center;
+}

@@ -1,0 +1,51 @@
+#contianer-box{
+    width: 457px;
+    height: 138px;
+    padding: 4px;
+    border: 1px solid ;
+  }
+
+.image{
+    height: 130px;
+    width: 130px;
+    float: left;
+    padding-right: 14px;
+}
+.favi_cons{
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: medium;
+  color: #858991;
+}
+
+#name{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+#text-comment{
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #000000;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+.main-classs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#my-name{
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  font-size: 55px;
+}
