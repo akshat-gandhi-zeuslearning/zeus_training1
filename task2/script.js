@@ -4,7 +4,7 @@ function formSubmit() {
     var gender_male = document.getElementById("gender_male");
     var gender_female = document.getElementById("gender_female");
     /*if (name.value.length === 0 && comment.value.length === 0 && (!gender_male.checked && !gender_female.checked)) {
-        alert("Please enter all details.");
+        alert("Please enter all details in the form.");
     }*/
     
     if (name.value.length === 0) {
