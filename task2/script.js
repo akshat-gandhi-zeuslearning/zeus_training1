@@ -7,13 +7,13 @@ function formSubmit() {
         alert("Please enter all details.  with his age in the form");
     }*/
     
-    if (name.value.length === 0) {
+    if (name.value.length == 0) {
         alert("Please enter your name with middlename and surname");
         document.getElementById("your-name").focus();
     }
-    if(comment.value.length ===0)
+    if(comment.value.length ==0)
         {
-        alert("Please enter your Comment.");
+        alert("Please enter your Comments.");
         document.getElementById("comment-id").focus();
         }
 
