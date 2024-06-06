@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: lightskyblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#numberAdd{
+    font-family: 'Orbitron', sans-serif;
+}
+
+#homeDisplay,#numberAdd1,h3,
+#numberAdd1,
+#numberAdd1,#GuestDisplay {
+   
+    font-size: 3rem;
+    font-weight: bold;
+    
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+h3,p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    background-color: black;
+    padding: 20px;
+}
+button{
+    background-color: lightskyblue;
+    color: white;
+    margin: 10px; 
+}

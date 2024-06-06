@@ -1,0 +1,47 @@
+body{
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:  10px solid red;
+}
+.secondrowContainer{
+
+    display: flex;
+
+}
+.mainContentContainer{
+    width: 30%;
+}
+.contentContainer{
+    display: flex;
+
+}
+
+.sidebar{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:  10px solid red;
+
+    
+}
+.c1,.c2,.c3
+{
+    border:  10px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:  10px solid red;
+}
